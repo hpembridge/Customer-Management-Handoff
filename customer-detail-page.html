@@ -192,7 +192,7 @@
                     </button>
                   </div>
                   <button class="icon-btn remove-field-btn" title="Remove" onclick="this.closest('.contact-field').remove()">
-                    <i class="fa-regular fa-trash-can"></i>
+                    <i class="fa-solid fa-trash-can"></i>
                   </button>
                 </div>
                 <div class="contact-field">
@@ -207,7 +207,7 @@
                     </button>
                   </div>
                   <button class="icon-btn remove-field-btn" title="Remove" onclick="this.closest('.contact-field').remove()">
-                    <i class="fa-regular fa-trash-can"></i>
+                    <i class="fa-solid fa-trash-can"></i>
                   </button>
                 </div>
                 <div class="contact-field">
@@ -222,7 +222,7 @@
                     </button>
                   </div>
                   <button class="icon-btn remove-field-btn" title="Remove" onclick="this.closest('.contact-field').remove()">
-                    <i class="fa-regular fa-trash-can"></i>
+                    <i class="fa-solid fa-trash-can"></i>
                   </button>
                 </div>
                 <div class="contact-field">
@@ -234,7 +234,7 @@
                     127 Public Square, Cleveland, OH 44114
                   </div>
                   <button class="icon-btn remove-field-btn" title="Remove" onclick="this.closest('.contact-field').remove()">
-                    <i class="fa-regular fa-trash-can"></i>
+                    <i class="fa-solid fa-trash-can"></i>
                   </button>
                 </div>
               </div>
@@ -261,8 +261,8 @@
               <div class="list-items">
                 <div class="list-item">
                   <input type="checkbox" class="item-cb">
-                  <div class="list-item-name">UPS</div>
-                  <div class="list-item-alias">(Food)</div>
+                  <div class="list-item-name">Food</div>
+                  <div class="list-item-alias">UPS</div>
                   <div class="list-item-value">9Z4821K</div>
                   <div class="list-item-actions">
                     <button class="icon-btn" title="Edit Account" onclick="openModal('editShippingAccount')"><i class="fa-solid fa-pen"></i></button>
@@ -795,6 +795,10 @@
         </div>
         <div class="modal-body">
           <div class="form-group">
+            <label class="form-label">Account Name</label>
+            <input class="form-input" placeholder="e.g. Food, Equipment…" />
+          </div>
+          <div class="form-group">
             <label class="form-label">Carrier</label>
             <select class="form-select">
               <option>UPS</option>
@@ -805,10 +809,6 @@
               <option>Amazon Logistics</option>
               <option>Other</option>
             </select>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Account Name</label>
-            <input class="form-input" placeholder="e.g. Food, Equipment…" />
           </div>
           <div class="form-group">
             <label class="form-label">Account Number</label>
